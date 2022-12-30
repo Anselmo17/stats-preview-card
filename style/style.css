@@ -1,0 +1,88 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.main-b {
+  border-radius: 70px;
+}
+
+.cartao {
+  position: relative;
+}
+
+section {
+  display: inline-flex;
+}
+
+.anuncio {
+  width: 400px;
+  position: relative;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.texto {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 1.2em;
+  color: hsla(0, 0%, 100%, 0.75)
+}
+
+strong {
+  color: rgb(186, 22, 219);
+}
+
+.cartao {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img-cartao:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(239, 11, 243, 0.26);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.linha {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  padding: 10px;
+}
+
+.texto-divulgacao {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.divulgacao {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
